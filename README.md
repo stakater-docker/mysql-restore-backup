@@ -6,7 +6,7 @@ It is a sidecar that will run inside mysql pod. Its main purpose is to backup an
 
 ## Description
 
-mysql backup and restore [image](https://hub.docker.com/r/stakater/mysql-backup-restore-s3/) [MBR] container can be used to backup elasticsearch data on S3 bucket. It runs inside mysql pod as a sidecar container. Sidecar container dump the mysql data and store it in S3 as an object.
+mysql backup and restore [image](https://hub.docker.com/r/stakater/mysql-backup-restore-s3/) [MBR] container can be used to backup mysql data on S3 bucket. It runs inside mysql pod as a sidecar container. Sidecar container dump the mysql data and store it in S3 as an object.
 
 
 | Environment Variable | Description | Default value |
